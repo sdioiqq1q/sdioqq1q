@@ -1,0 +1,4 @@
+    public String getLoginId() { 
+        return (String)fInfo.get("loginId"); 
+    } 
+    public void setLoginId(String param1) { 
