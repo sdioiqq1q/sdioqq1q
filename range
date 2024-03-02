@@ -1,0 +1,6 @@
+    bullet2 = []
+    bullet2_index = 0
+    BULLET2_NUM = 8
+    for i in range(BULLET2_NUM//2):
+        bullet2.append(bullet.Bullet2((me.rect.centerx - 33, me.rect.centery)))
+        bullet2.append(bullet.Bullet2((me.rect.centerx + 30, me.rect.centery)))
