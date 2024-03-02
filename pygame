@@ -1,0 +1,6 @@
+    gameover_font = pygame.font.Font("font/font.ttf", 48)
+    again_image = pygame.image.load("images/again.png").convert_alpha()
+    again_rect = again_image.get_rect()
+    gameover_image = pygame.image.load("images/gameover.png").convert_alpha()
+    gameover_rect = gameover_image.get_rect()
+ 
