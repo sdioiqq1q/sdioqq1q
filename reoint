@@ -1,0 +1,5 @@
+        p.repaint();
+        g.setColor(Color.red);
+        g.setFont(new Font("Arial", 1, 100));
+        g.drawString("GAME OVER", 100, 200);
+        g.setFont(new Font("Arial", 2, 50));
