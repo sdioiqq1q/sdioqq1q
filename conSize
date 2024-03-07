@@ -1,0 +1,6 @@
+                Point p2 = indextoScreen(path[i + 1].x, path[i + 1].y);
+                canvas.drawLine(p1.x + iconSize / 2, p1.y + iconSize / 2, p2.x
+                        + iconSize / 2, p2.y + iconSize / 2, paint);
+            }
+            Point p = path[0];
+            map[p.x][p.y] = 0;
