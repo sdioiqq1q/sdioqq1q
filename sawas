@@ -1,0 +1,5 @@
+	for(i=0;i<sizeof(scale)/sizeof(scale[0]);i++)
+	{
+		if(trans(num,scale[i],str))
+			printf("%5d = %s(%d)\n",num,str,scale[i]);
+		else
