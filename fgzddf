@@ -1,0 +1,6 @@
+{
+	unsigned int num = 253;
+	int scale[]={2,3,10,16,1};
+	char str[33];
+	int i;
+	clrscr();
