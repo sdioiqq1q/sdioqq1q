@@ -1,0 +1,5 @@
+t = Turtle(visible = False,shape='circle')
+t.pencolor("white")       
+t.fillcolor("white")      
+t.penup()                 
+t.setheading(-90)  
