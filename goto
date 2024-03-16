@@ -1,0 +1,4 @@
+t.goto(width/2,randint(-height/2,height/2))
+stars = []
+for i in range(300):
+    star = t.clone() 
