@@ -1,0 +1,4 @@
+  public void testWriterAndReader(){
+
+        try {
+            long start = System.currentTimeMillis();
