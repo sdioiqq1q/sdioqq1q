@@ -1,0 +1,4 @@
+            long useTimeInput = System.currentTimeMillis()-startInput;
+            System.out.println("--useTimeInput:"+useTimeInput);
+        }catch (Exception e){
+            e.printStackTrace();
