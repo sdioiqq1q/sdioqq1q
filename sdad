@@ -1,0 +1,6 @@
+ public static String getLishi() {
+  return lishi;
+ }
+
+ public static void setLishi(String lishi) {
+  CarParking.lishi = lishi;
