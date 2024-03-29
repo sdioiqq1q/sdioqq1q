@@ -1,0 +1,7 @@
+  stime = new Date();
+  SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+  String time1 = dateFormat.format(this.stime);
+
+ }
+
+ public String toString() {
